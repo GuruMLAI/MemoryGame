@@ -46,7 +46,7 @@ $(".btn").click(function(event){
         if (pattern.length === roundCounter){
             setTimeout(function(){
                 pattern = addNewMember(pattern);
-            },500)
+            },800)
             
             roundCounter = 0;
         }
